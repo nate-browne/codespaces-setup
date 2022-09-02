@@ -5,4 +5,4 @@ git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --grap
 git config --global alias.type "cat-file -t"
 git config --global alias.dump "cat-file -p"
 git config --global commit.gpgsign true
-
+alias merge='gh pr merge -sd'
